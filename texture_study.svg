@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800">
+<rect x="0" y="0" width="800" height="800" fill="#102440"/>
+<texture filename="assets/frequency.png" texid="study"/>
+<textri texid="study" points="70 65 730 125 730 355" uvs="0 0 1 0 1 1"/>
+<textri texid="study" points="70 65 730 355 70 295" uvs="0 0 1 1 0 1"/>
+<textri texid="study" points="70 365 730 425 730 520" uvs="0 0 1 0 1 1"/>
+<textri texid="study" points="70 365 730 520 70 460" uvs="0 0 1 1 0 1"/>
+<textri texid="study" points="70 535 730 595 730 623" uvs="0 0 1 0 1 1"/>
+<textri texid="study" points="70 535 730 623 70 563" uvs="0 0 1 1 0 1"/>
+<textri texid="study" points="70 655 730 715 730 724" uvs="0 0 1 0 1 1"/>
+<textri texid="study" points="70 655 730 724 70 664" uvs="0 0 1 1 0 1"/>
+</svg>

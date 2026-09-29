@@ -1,0 +1,152 @@
+{
+  "skinny-1-baseline": {
+    "median_ms": 43.5015,
+    "min_ms": 43.3195,
+    "max_ms": 43.6653,
+    "scene": "svg/extra/skinny.svg",
+    "keys": "O",
+    "runs": 11
+  },
+  "skinny-1-tiled": {
+    "median_ms": 2.38721,
+    "min_ms": 2.36088,
+    "max_ms": 2.42725,
+    "scene": "svg/extra/skinny.svg",
+    "keys": "",
+    "runs": 11
+  },
+  "skinny-16-baseline": {
+    "median_ms": 558.751,
+    "min_ms": 557.177,
+    "max_ms": 573.765,
+    "scene": "svg/extra/skinny.svg",
+    "keys": "===O",
+    "runs": 11
+  },
+  "skinny-16-tiled": {
+    "median_ms": 11.9323,
+    "min_ms": 11.8811,
+    "max_ms": 12.0833,
+    "scene": "svg/extra/skinny.svg",
+    "keys": "===",
+    "runs": 11
+  },
+  "sun-1-baseline": {
+    "median_ms": 3.79113,
+    "min_ms": 3.76704,
+    "max_ms": 3.84313,
+    "scene": "svg/illustration/04_sun.svg",
+    "keys": "O",
+    "runs": 11
+  },
+  "sun-1-tiled": {
+    "median_ms": 1.29579,
+    "min_ms": 1.27579,
+    "max_ms": 1.49392,
+    "scene": "svg/illustration/04_sun.svg",
+    "keys": "",
+    "runs": 11
+  },
+  "sun-16-baseline": {
+    "median_ms": 39.9081,
+    "min_ms": 39.7649,
+    "max_ms": 42.3712,
+    "scene": "svg/illustration/04_sun.svg",
+    "keys": "===O",
+    "runs": 11
+  },
+  "sun-16-tiled": {
+    "median_ms": 8.92146,
+    "min_ms": 8.86704,
+    "max_ms": 9.18062,
+    "scene": "svg/illustration/04_sun.svg",
+    "keys": "===",
+    "runs": 11
+  },
+  "lion-1-baseline": {
+    "median_ms": 2.01008,
+    "min_ms": 1.99238,
+    "max_ms": 2.03533,
+    "scene": "svg/illustration/05_lion.svg",
+    "keys": "O",
+    "runs": 11
+  },
+  "lion-1-tiled": {
+    "median_ms": 0.638416,
+    "min_ms": 0.588042,
+    "max_ms": 0.660459,
+    "scene": "svg/illustration/05_lion.svg",
+    "keys": "",
+    "runs": 11
+  },
+  "lion-16-baseline": {
+    "median_ms": 22.713,
+    "min_ms": 22.5284,
+    "max_ms": 22.875,
+    "scene": "svg/illustration/05_lion.svg",
+    "keys": "===O",
+    "runs": 11
+  },
+  "lion-16-tiled": {
+    "median_ms": 3.94112,
+    "min_ms": 3.91879,
+    "max_ms": 4.06613,
+    "scene": "svg/illustration/05_lion.svg",
+    "keys": "===",
+    "runs": 11
+  },
+  "filter-nearest": {
+    "median_ms": 1.51308,
+    "min_ms": 1.49146,
+    "max_ms": 1.54179,
+    "scene": "docs/texture_study.svg",
+    "keys": "",
+    "runs": 11
+  },
+  "filter-bilinear": {
+    "median_ms": 3.02267,
+    "min_ms": 2.98054,
+    "max_ms": 3.07292,
+    "scene": "docs/texture_study.svg",
+    "keys": "P",
+    "runs": 11
+  },
+  "filter-trilinear": {
+    "median_ms": 9.06771,
+    "min_ms": 8.95354,
+    "max_ms": 9.21112,
+    "scene": "docs/texture_study.svg",
+    "keys": "PLL",
+    "runs": 11
+  },
+  "filter-anisotropic": {
+    "median_ms": 32.5546,
+    "min_ms": 32.3168,
+    "max_ms": 33.2805,
+    "scene": "docs/texture_study.svg",
+    "keys": "PLLL",
+    "runs": 11
+  },
+  "pattern-grid": {
+    "median_ms": 75.171,
+    "min_ms": 74.6539,
+    "max_ms": 76.0806,
+    "scene": "svg/extra/aliasing.svg",
+    "keys": "=",
+    "runs": 11
+  },
+  "pattern-jitter": {
+    "median_ms": 218.602,
+    "min_ms": 217.703,
+    "max_ms": 230.335,
+    "scene": "svg/extra/aliasing.svg",
+    "keys": "=J",
+    "runs": 11
+  },
+  "environment": {
+    "platform": "macOS-15.7.4-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "compiler": "Apple clang version 17.0.0 (clang-1700.0.13.5)",
+    "build": "Release; 800x800; steady_clock; 3 warmups + 11 measured SVG::draw calls"
+  }
+}
